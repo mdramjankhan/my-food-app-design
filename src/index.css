@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+
+.logo {
+    font-family: "Caveat", cursive;
+    font-optical-sizing:auto;
+    font-weight: 900;
+    font-style:italic;
+}
+
+.logo_1 {
+    font-family: "Caveat", cursive;
+    font-optical-sizing:auto;
+    font-weight: 500;
+    font-style:italic;
+}
+
+.move {
+    animation: orbit2 40s forwards infinite ;
+}
+
+@keyframes orbit2 {
+    from {  -webkit-transform: rotate(0deg) }
+    to   {  -webkit-transform: rotate(360deg) }
+}
+
+.rnd-shw {
+    -webkit-box-shadow: -19px 15.5px 15px 2.5px #dddddd;
+    -moz-box-shadow: -19px 15.5px 15px 2.5px #dddddd;
+    box-shadow: -19px 15.5px 15px 2.5px #dddddd;
+}
+
+.bodyImg {
+    background-image: url("../src/assets/blurry-gradient-haikei.png");
+    background-size: cover;
+    width: 100vw;
+    height: 510px;
+}
+
+.bgf {
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
